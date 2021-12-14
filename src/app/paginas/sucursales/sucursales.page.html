@@ -1,0 +1,88 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title style="width: 100%; text-align: center;">Sucursales</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding="padding" class="getting-started">
+
+    <ion-card>
+        <img routerLink="/inicio" src="../assets/media/4.png" alt="">
+    </ion-card>
+
+    <ion-card (click)="lasNaves()">
+        <ion-card-header>
+            <div style="width: 100%; text-align: center;">
+                <img src="../assets/media/1.jpg" style="width: 75%;" />
+            </div>
+            <ion-card-subtitle style="width: 100%; text-align: center;">Las Naves</ion-card-subtitle>
+
+            <ion-item-divider>
+                <div style="width: 100%; text-align: center;">
+                    <ion-card-title>
+                        <ion-icon name="apps-outline"></ion-icon> Ventanas
+                        <ion-icon name="apps-outline"></ion-icon>
+                    </ion-card-title>
+                </div>
+            </ion-item-divider>
+        </ion-card-header>
+        <ion-card-content style="width: 100%; text-align: center;">
+            Numero de Contacto: +593 98 590 2741
+        </ion-card-content>
+    </ion-card>
+
+
+    <ion-card (click)="lagoAgrio()">
+        <ion-card-header>
+            <div style="width: 100%; text-align: center;">
+                <img src="../assets/media/2.jpg" style="width: 75%;" />
+            </div>
+            <ion-card-subtitle style="width: 100%; text-align: center;">Lago Agrio</ion-card-subtitle>
+
+            <ion-item-divider>
+                <div style="width: 100%; text-align: center;">
+                    <ion-card-title>
+                        <ion-icon name="apps"></ion-icon> Nueva Loja
+                        <ion-icon name="apps"></ion-icon>
+                    </ion-card-title>
+                </div>
+            </ion-item-divider>
+        </ion-card-header>
+
+        <ion-card-content style="width: 100%; text-align: center;">
+            Numero de Contacto: +593 99 457 1422
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card (click)="aguasNegras()" ionic>
+        <ion-card-header>
+            <div style="width: 100%; text-align: center;">
+                <img src="../assets/media/3.jpg" style="width: 75%;" />
+            </div>
+            <ion-card-subtitle style="width: 100%; text-align: center;">Aguas Negras</ion-card-subtitle>
+
+            <ion-item-divider>
+                <div style="width: 100%; text-align: center;">
+                    <ion-card-title>
+                        <ion-icon name="apps-sharp"></ion-icon> Cuyabeno
+                        <ion-icon name="apps-sharp"></ion-icon>
+                    </ion-card-title>
+                </div>
+            </ion-item-divider>
+        </ion-card-header>
+
+        <ion-card-content style="width: 100%; text-align: center;">
+            Numero de Contacto: +593 96 005 5025
+        </ion-card-content>
+    </ion-card>
+
+    <!-- <ion-app>
+      <ion-nav root="nav-home"></ion-nav>
+  </ion-app> -->
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+        <ion-title style="width: 100%; text-align: center;">Camacho - Flores</ion-title>
+    </ion-toolbar>
+</ion-footer>
